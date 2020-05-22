@@ -3,15 +3,19 @@ package com.codewithMosh;
 public class main {
 	public static void main (String[] args){
 		
-		int temperature = 20;
-		System.out.println(temperature);
-		
-		int age = 30;
-		age = 35;
+		byte age = 30;
 		System.out.println(age);
 		
-		int myAge = 30;
-		int herAge = myAge;
-		System.out.println(herAge);
+		long viewsCount = 3_123_456_789L;
+		System.out.println(viewsCount);
+		
+		float price = 10.99F;
+		System.out.println(price);
+		
+		char letter = 'A';
+		System.out.println(letter);
+		
+		boolean isEligible = false;
+		System.out.println(isEligible);
 	}
 }
