@@ -6,18 +6,15 @@
 ReturnType Name{
 	...
 }
-```
-```
+
 void Name{
 	...
 }
-```
-```
+
 void sendEmail{
 	...
 }
-```
-```
+
 void main{
 	...
 }
@@ -42,14 +39,17 @@ public class Main{
 }
 ```
 ___
+**Primitive Type Variable**
 
-**Java Code Executed**
-```
-Source Code  -->  Java Compiler  -->  Byte Code
-(.java)           (.class)
-```
+Primitive - for storing simple values
 
-Java Runtime Environment (JRE)
-```
-Byte Code  -->  Java Virtual Machine  -->  Native Code
-(.class)	
+Type | Bytes | Range
+---- | ----  | ----
+byte | 1 | [-128, 127]
+short| 2 | [-32k, 32k]
+int  | 4 | [-2B, 2B]
+long | 8 | 
+float| 4 | 
+double| 8 | 
+char | 2 | A, B, C
+boolean| 1 | true / false
