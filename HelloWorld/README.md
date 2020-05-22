@@ -39,9 +39,9 @@ public class Main{
 }
 ```
 ___
-**Primitive Type Variable**
+**Variable Types**
 
-Primitive - for storing simple values
+- Primitive Type - for storing simple values
 
 Type | Bytes | Range
 ---- | ----  | ----
@@ -53,3 +53,5 @@ float| 4 |
 double| 8 | 
 char | 2 | A, B, C
 boolean| 1 | true / false
+
+- Reference Type - for storing complex object like date and mail message
