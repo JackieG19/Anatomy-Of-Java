@@ -1,6 +1,6 @@
 package com.codewithMosh;
 
-import java.util.Date;
+import java.awt.Point;
 
 public class main {
 	public static void main (String[] args){
