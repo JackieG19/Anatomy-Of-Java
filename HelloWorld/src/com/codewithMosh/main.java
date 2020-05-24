@@ -1,15 +1,37 @@
 package com.codewithMosh;
 
-import java.util.Arrays;
-
 public class main {
 	public static void main (String[] args){
-		// this will mess up the calculation
-		//float pi = 3.14f;
-		//pi = 1;
+		int result = 10 + 3;
+		System.out.println(result);
 		
-		// must use final to make this into a constants
-		final float PI = 3.14f;
-		System.out.println(PI);
+		int result1 = 10 * 3;
+		System.out.println(result1);
+		
+		double result2 = (double)10 / (double)3;
+		System.out.println(result2);
+		
+		int x = 1;
+		x++;
+		int y = 1;
+		System.out.println(x);
+		System.out.println(y);
+		
+		int b = 1;
+		//b = b + 2;
+		b += 2;
+		System.out.println(b);
+		
+		int c = 1;
+		c -= 2;
+		System.out.println(c);
+		
+		int d = 1;
+		d *= 2;
+		System.out.println(d);
+		
+		int e = 1;
+		e /= 2;
+		System.out.println(e);
 	}
 }
