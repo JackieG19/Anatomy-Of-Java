@@ -1,18 +1,18 @@
 package com.codewithMosh;
 
+import java.util.Arrays;
+
 public class main {
 	public static void main (String[] args){
-		String message = "Hello \"World\"";
-		System.out.println(message);
+		int[] numbers = new int[5];
+		numbers[0] = 1;
+		numbers[1] = 2;
+		System.out.println(Arrays.toString(numbers));
 		
-		// store a path to the directory on a window machine - c:\Windows\...
-		String storeToWindow = "c:\\Window\\...";
-		System.out.println(storeToWindow);
+		int[] number = { 2, 3, 5, 1, 4 };
+		System.out.println(number.length);
 		
-		String newline = "c:\nWindow\\...";
-		System.out.println(newline);
-		
-		String tabOver = "c:\tWindow\\...";
-		System.out.println(tabOver);
+		Arrays.sort(number);
+		System.out.println(Arrays.toString(number));
 	}
 }
