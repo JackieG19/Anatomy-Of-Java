@@ -2,15 +2,17 @@ package com.codewithMosh;
 
 public class main {
 	public static void main (String[] args){
-		String message = "Hello World";
+		String message = "Hello \"World\"";
 		System.out.println(message);
 		
-		String message2 = "Hello World" + "!!";	
-		System.out.println(message2.endsWith("!!"));
-		System.out.println(message2.startsWith("!!"));
+		// store a path to the directory on a window machine - c:\Windows\...
+		String storeToWindow = "c:\\Window\\...";
+		System.out.println(storeToWindow);
 		
-		System.out.println(message2.length());
-		System.out.println(message2.indexOf("e"));
-		System.out.println(message2.replace("!", "*"));
+		String newline = "c:\nWindow\\...";
+		System.out.println(newline);
+		
+		String tabOver = "c:\tWindow\\...";
+		System.out.println(tabOver);
 	}
 }
