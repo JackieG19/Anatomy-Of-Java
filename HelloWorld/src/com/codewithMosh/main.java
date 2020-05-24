@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class main {
 	public static void main (String[] args){
-		int[][] numbers = new int[2][3];
-		numbers[0][0] = 1;
-		System.out.println(Arrays.toString(numbers));
-		System.out.println(Arrays.deepToString(numbers));
+		// this will mess up the calculation
+		//float pi = 3.14f;
+		//pi = 1;
 		
-		int[][] number = {{1, 2, 3}, {4, 5, 6}};
-		System.out.println(Arrays.deepToString(number));
+		// must use final to make this into a constants
+		final float PI = 3.14f;
+		System.out.println(PI);
 	}
 }
