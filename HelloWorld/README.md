@@ -55,3 +55,10 @@ char | 2 | A, B, C
 boolean| 1 | true / false
 
 - Reference Type - for storing complex object like date and mail message
+___
+**Order of Operations**
+```
+()
+* /
++ -
+```
